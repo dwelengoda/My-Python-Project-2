@@ -1,0 +1,3 @@
+integer1=100
+integer2=29
+print((integer1+integer2)*3)
