@@ -1,0 +1,8 @@
+number=input('enter a number')
+number2=input('enter another number')
+if int (number)%2==0 and int(number2)%2==0:
+  print('Both numbers are even')
+elif int(number)%2!=0 and int(number2)%2!=0:
+  print('Both numbers are odd')
+else:
+    print('one of the numbers is even')
