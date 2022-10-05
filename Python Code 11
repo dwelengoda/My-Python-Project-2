@@ -1,0 +1,5 @@
+product = lambda a, b : a * b
+a = 5
+b = 6
+product = a * b
+print("The product of number:", product)
