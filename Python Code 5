@@ -1,0 +1,2 @@
+answer=387**2
+print("The result of the calculation was:""\n"+str(answer))
