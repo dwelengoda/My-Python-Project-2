@@ -1,0 +1,7 @@
+numberByUser= int(input('enter a number'))
+number=1
+sum=0
+while (number<=numberByUser):
+    sum=sum+number
+    number=number+1
+print(sum)
