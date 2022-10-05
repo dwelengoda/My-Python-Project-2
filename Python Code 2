@@ -1,0 +1,3 @@
+print("Please Type Your Name Here and Press Enter:")
+x = input()
+print("Hello, " + x)
