@@ -1,0 +1,4 @@
+name=input('What is your name?')
+yearOfBirth=input('what is your year of birth?')
+age=input('what is your age')
+print(yearOfBirth[2:4]+name[0:3]+str(int(age)**2))
