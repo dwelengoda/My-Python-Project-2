@@ -1,0 +1,39 @@
+import random
+num=random.randint(0,10)
+guess=int(input('Player 1 guess the number'))
+noOfTries=1
+while num!=guess:
+    if num < guess:
+        print('try a smaller number')
+        guess=int(input('guess the number'))
+    elif num>guess:
+        print('try a greater number')
+        guess=int(input('guess the number')) 
+    else:
+        break
+    noOfTries=noOfTries+1
+        
+    print(f"That is right! Number of tries{noOfTries}")
+    
+    noOfTries2=1
+    guess2= int(input('Player 2 guess the number'))
+    while num!=guess:
+        if num < guess:
+            print('try a smaller number')
+            guess=int(input('guess the number'))
+        elif num > guess:
+            print('try a greater number')
+            guess=int(input('guess the number'))
+        else:
+            break
+        noOfTries2=noOfTries2+1
+            
+            
+    print(f"That is right! Number of tries{noOfTries2}")
+            
+    if noOfTries > noOfTries2:
+        print('Winner is player 2')
+    elif noOfTries < noOfTries2:
+        print('Winner is player 1')
+    else:
+        print('Its a Draw')  
